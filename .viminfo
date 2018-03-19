@@ -34,63 +34,68 @@
 	export PATH=$PATH:$GOROOT/bin
 
 # File marks:
-'0  24  2  ~/.gitignore
-'1  22  0  ~/.gitignore
-'2  26  0  ~/.viminfo
-'3  14  5  ~/.gitignore
-'4  2  34  ~/.bash_profile
+'0  6  16  ~/.bash_profile
+'1  1  0  ~/.bash_
+'2  1  0  ~/.gitignore
+'3  24  2  ~/.gitignore
+'4  22  0  ~/.gitignore
+'5  26  0  ~/.viminfo
+'6  14  5  ~/.gitignore
+'7  2  34  ~/.bash_profile
 
 # Jumplist (newest first):
--'  24  2  ~/.gitignore
+-'  6  16  ~/.bash_profile
+-'  1  0  ~/.bash_profile
+-'  1  0  ~/.bash_
 -'  1  0  ~/.gitignore
+-'  24  2  ~/.gitignore
 -'  22  0  ~/.gitignore
 -'  26  0  ~/.viminfo
 -'  1  0  ~/.viminfo
 -'  14  5  ~/.gitignore
 -'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
 -'  26  0  ~/.viminfo
 -'  1  0  ~/.viminfo
 -'  12  5  ~/.gitignore
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
 -'  26  0  ~/.viminfo
 -'  1  0  ~/.viminfo
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
 -'  26  0  ~/.viminfo
 -'  1  0  ~/.viminfo
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  2  34  ~/.bash_profile
--'  1  0  ~/.bash_profile
+-'  26  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  26  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  26  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  26  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  1  0  ~/.gitignore
+-'  24  2  ~/.gitignore
+-'  22  0  ~/.gitignore
+-'  26  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  14  5  ~/.gitignore
 
 # History of marks within files (newest to oldest):
 
+> ~/.bash_profile
+	"	6	16
+	^	6	17
+	.	6	16
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	3	0
+	+	3	28
+	+	7	0
+	+	6	16
+
+> ~/.bash_
+	"	1	0
+
 > ~/.gitignore
-	"	24	2
+	"	1	0
 	^	24	3
 	.	24	2
 	+	6	9
@@ -105,14 +110,3 @@
 
 > ~/.viminfo
 	"	26	0
-
-> ~/.bash_profile
-	"	2	34
-	^	2	35
-	.	3	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	3	0
-	+	3	0
