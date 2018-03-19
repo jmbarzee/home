@@ -1,0 +1,25 @@
+
+# Apple ignores
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+.CFUserTextEncoding
+.DS_Store
+.Trash
+
+# Key ignores
+.ssh
+
+# Bash ignores
+.bash_history
+.bash_sessions
+
+# temp ignores. Solve it some better way later
+all
+
