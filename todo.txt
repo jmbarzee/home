@@ -1,0 +1,15 @@
+xcode command line tools install 
+xcode-select --install
+
+git config name and email address
+
+generate ssh keys?
+
+install golang 
+setup file structure and go env variables
+install dep
+
+
+clone favorite repos
+
+install brew
