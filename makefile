@@ -1,33 +1,22 @@
 .PHONY: all
-.PHONY: apple apple-brew apple-chrome apple-iterm2 apple-slack apple-spotify apple-vscode apple-xcode apple-yarn
-.PHONY: linux linux-confs
+.PHONY: brew chrome iterm2 slack spotify vscode xcode yarn
 
-all: apple linux
+all: brew chrome iterm2 slack spotify vscode xcode yarn
 	echo "installing everything. This might be a bad idea"
 
-
-apple: apple-brew apple-chrome apple-iterm2 apple-slack apple-spotify apple-vscode apple-xcode apple-yarn
-	echo "installing all apple components"
-
-apple-brew:
-	./apple/brew/run.sh
-apple-chrome:
-	./apple/chrome/run.sh
-apple-iterm2:
-	./apple/iterm2/run.sh
-apple-slack:
-	./apple/slack/run.sh
-apple-spotify:
-	./apple/spotify/run.sh
-apple-vscode: apple-xcode apple-brew apple-yarn
-	./apple/vscode/run.sh
-apple-xcode:
-	./apple/xcode/run.sh
-apple-yarn: apple-brew
-	./apple/yarn/run.sh
-
-linux: linux-confs
-	echo "installing all linux components"
-
-linux-confs:
-	./linux/confs/run.sh
+brew:
+	./brew/install.sh
+chrome:
+	./chrome/install.sh
+iterm2:
+	./iterm2/install.sh
+slack:
+	./slack/install.sh
+spotify:
+	./spotify/install.sh
+vscode: xcode brew yarn
+	./vscode/install.sh
+xcode:
+	./xcode/install.sh
+yarn: brew
+	./yarn/install.sh
