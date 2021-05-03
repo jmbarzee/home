@@ -1,9 +1,0 @@
-
-
-git config name and email address
-
-generate ssh keys?
-
-install golang 
-install brew
-intsall docker
